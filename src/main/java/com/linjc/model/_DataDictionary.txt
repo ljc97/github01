@@ -1,0 +1,32 @@
+Table: t_private_personinfo
+---------------+--------------+------+-----+-------------+---------
+ Field         | Type         | Null | Key | Default     | Remarks 
+---------------+--------------+------+-----+-------------+---------
+ numId         | INT(10)      | NO   | PRI |             | 记录数，无实际作用
+ siteName      | VARCHAR(25)  | YES  |     |             | 目标网址名称  
+ siteAddress   | VARCHAR(255) | YES  |     |             | 目标网址    
+ accountNumber | VARCHAR(25)  | YES  |     | 13625020519 | 账号（默认手机号）
+ passWord      | VARCHAR(255) | YES  |     |             | 密码      
+ remark        | VARCHAR(255) | YES  |     |             | 备注信息    
+---------------+--------------+------+-----+-------------+---------
+
+Table: t_sys_test
+-------+--------------+------+-----+---------+---------
+ Field | Type         | Null | Key | Default | Remarks 
+-------+--------------+------+-----+---------+---------
+ id    | INT(10)      | NO   | PRI |         |         
+ test  | VARCHAR(255) | YES  |     |         |         
+-------+--------------+------+-----+---------+---------
+
+Table: t_sys_user
+----------+--------------+------+-----+---------+---------
+ Field    | Type         | Null | Key | Default | Remarks 
+----------+--------------+------+-----+---------+---------
+ id       | INT(10)      | NO   | PRI |         |         
+ userName | VARCHAR(255) | YES  |     |         |         
+ passWord | VARCHAR(255) | YES  |     |         |         
+ age      | SMALLINT(5)  | YES  |     |         |         
+ sex      | SMALLINT(5)  | YES  |     |         |         
+ remark   | VARCHAR(255) | YES  |     |         |         
+----------+--------------+------+-----+---------+---------
+

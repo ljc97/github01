@@ -1,0 +1,48 @@
+2019-07-12 08:43:18 - [ qtp2143192188-19:0 ] - [ INFO ] - [ com.linjc.controller.UserController.login(UserController.java:51) ] 
+{passWord:zzz, sex:1, remark:zzz, id:2, userName:zzz, age:18}
+2019-07-12 08:44:00 - [ qtp2143192188-20:41886 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:44:00 CST 2019使用了系统！！！！！
+2019-07-12 08:44:08 - [ qtp2143192188-18:50150 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:44:08 CST 2019使用了系统！！！！！
+2019-07-12 08:44:13 - [ qtp2143192188-22:55446 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:44:13 CST 2019使用了系统！！！！！
+2019-07-12 08:44:27 - [ qtp2143192188-22:68952 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:44:27 CST 2019使用了系统！！！！！
+2019-07-12 08:44:31 - [ qtp2143192188-22:73796 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:44:31 CST 2019使用了系统！！！！！
+2019-07-12 08:44:41 - [ qtp2143192188-22:83459 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:44:41 CST 2019使用了系统！！！！！
+2019-07-12 08:46:47 - [ qtp2143192188-18:208910 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:46:47 CST 2019使用了系统！！！！！
+2019-07-12 08:46:50 - [ qtp2143192188-22:212375 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:46:50 CST 2019使用了系统！！！！！
+2019-07-12 08:46:55 - [ qtp2143192188-22:217261 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:46:55 CST 2019使用了系统！！！！！
+2019-07-12 08:46:57 - [ qtp2143192188-21:219547 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:46:57 CST 2019使用了系统！！！！！
+2019-07-12 08:58:02 - [ qtp1752203484-23:0 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:58:02 CST 2019使用了系统！！！！！
+2019-07-12 08:58:08 - [ qtp1752203484-19:5910 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:58:08 CST 2019使用了系统！！！！！
+2019-07-12 08:58:33 - [ qtp1752203484-22:31774 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:58:33 CST 2019使用了系统！！！！！
+2019-07-12 08:58:50 - [ qtp1752203484-23:48240 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:58:50 CST 2019使用了系统！！！！！
+2019-07-12 08:59:09 - [ qtp1752203484-19:67255 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:59:09 CST 2019使用了系统！！！！！
+2019-07-12 08:59:32 - [ qtp1752203484-24:90283 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:59:32 CST 2019使用了系统！！！！！
+2019-07-12 08:59:41 - [ qtp1752203484-21:98880 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:59:41 CST 2019使用了系统！！！！！
+2019-07-12 08:59:57 - [ qtp1752203484-19:115653 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 08:59:57 CST 2019使用了系统！！！！！
+2019-07-12 09:00:10 - [ qtp1752203484-24:128415 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 09:00:10 CST 2019使用了系统！！！！！
+2019-07-12 09:00:23 - [ qtp1752203484-19:141024 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 09:00:23 CST 2019使用了系统！！！！！
+2019-07-12 09:00:46 - [ qtp1752203484-25:164546 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 09:00:46 CST 2019使用了系统！！！！！
+2019-07-12 09:01:35 - [ qtp1752203484-25:212983 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 09:01:35 CST 2019使用了系统！！！！！
+2019-07-12 09:01:48 - [ qtp1752203484-21:226648 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Fri Jul 12 09:01:48 CST 2019使用了系统！！！！！

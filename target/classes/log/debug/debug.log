@@ -1,0 +1,254 @@
+2019-07-13 14:27:59 - [ main:0 ] - [ DEBUG ] - [ io.undertow.server.handlers.resource.PathResourceManager.<clinit>(PathResourceManager.java:31) ] 
+Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2019-07-13 14:29:18 - [ main:0 ] - [ DEBUG ] - [ io.undertow.server.handlers.resource.PathResourceManager.<clinit>(PathResourceManager.java:31) ] 
+Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2019-07-13 14:31:41 - [ main:0 ] - [ DEBUG ] - [ io.undertow.server.handlers.resource.PathResourceManager.<clinit>(PathResourceManager.java:31) ] 
+Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2019-07-13 14:32:49 - [ main:0 ] - [ DEBUG ] - [ io.undertow.server.handlers.resource.PathResourceManager.<clinit>(PathResourceManager.java:31) ] 
+Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2019-07-13 14:32:49 - [ main:59 ] - [ DEBUG ] - [ org.jboss.logging.DelegatingBasicLogger.debugf(DelegatingBasicLogger.java:384) ] 
+Setting default session timeout to 1800
+2019-07-13 14:32:49 - [ main:77 ] - [ DEBUG ] - [ io.undertow.server.session.InMemorySessionManager.registerSessionListener(InMemorySessionManager.java:239) ] 
+Registered session listener io.undertow.servlet.core.SessionListenerBridge@4563e9ab
+2019-07-13 14:32:50 - [ main:1268 ] - [ DEBUG ] - [ io.undertow.Undertow.start(Undertow.java:117) ] 
+starting undertow server io.undertow.Undertow@6dbb137d
+2019-07-13 14:32:51 - [ main:1340 ] - [ INFO ] - [ org.xnio.Xnio.<clinit>(Xnio.java:104) ] 
+XNIO version 3.3.8.Final
+2019-07-13 14:32:51 - [ main:1360 ] - [ INFO ] - [ org.xnio.nio.NioXnio.<clinit>(NioXnio.java:55) ] 
+XNIO NIO Implementation Version 3.3.8.Final
+2019-07-13 14:32:51 - [ XNIO-1 I/O-2:1486 ] - [ DEBUG ] - [ org.xnio.nio.WorkerThread.run(WorkerThread.java:433) ] 
+Started channel thread 'XNIO-1 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@551329dd
+2019-07-13 14:32:51 - [ XNIO-1 I/O-4:1486 ] - [ DEBUG ] - [ org.xnio.nio.WorkerThread.run(WorkerThread.java:433) ] 
+Started channel thread 'XNIO-1 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@1d1deacc
+2019-07-13 14:32:51 - [ XNIO-1 I/O-3:1486 ] - [ DEBUG ] - [ org.xnio.nio.WorkerThread.run(WorkerThread.java:433) ] 
+Started channel thread 'XNIO-1 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@283249f8
+2019-07-13 14:32:51 - [ XNIO-1 I/O-1:1486 ] - [ DEBUG ] - [ org.xnio.nio.WorkerThread.run(WorkerThread.java:433) ] 
+Started channel thread 'XNIO-1 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@5517677f
+2019-07-13 14:32:51 - [ XNIO-1 Accept:1486 ] - [ DEBUG ] - [ org.xnio.nio.WorkerThread.run(WorkerThread.java:433) ] 
+Started channel thread 'XNIO-1 Accept', selector sun.nio.ch.WindowsSelectorImpl@559479a2
+2019-07-13 14:32:51 - [ main:1487 ] - [ DEBUG ] - [ io.undertow.Undertow.start(Undertow.java:157) ] 
+Configuring listener with protocol HTTP for interface 0.0.0.0 and port 80
+2019-07-13 14:33:00 - [ XNIO-1 I/O-3:11042 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /
+2019-07-13 14:33:00 - [ XNIO-1 task-1:11057 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /, authentication required: false
+2019-07-13 14:33:00 - [ XNIO-1 task-1:11058 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /
+2019-07-13 14:33:00 - [ XNIO-1 task-1:11058 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /
+2019-07-13 14:33:00 - [ XNIO-1 I/O-3:11208 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /favicon.ico
+2019-07-13 14:33:00 - [ XNIO-1 task-2:11209 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /favicon.ico, authentication required: false
+2019-07-13 14:33:00 - [ XNIO-1 task-2:11209 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /favicon.ico
+2019-07-13 14:33:00 - [ XNIO-1 task-2:11210 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /favicon.ico
+2019-07-13 14:33:04 - [ XNIO-1 I/O-3:15007 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /user/login
+2019-07-13 14:33:04 - [ XNIO-1 task-3:15007 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /user/login, authentication required: false
+2019-07-13 14:33:04 - [ XNIO-1 task-3:15008 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /user/login
+2019-07-13 14:33:04 - [ XNIO-1 task-3:15008 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /user/login
+2019-07-13 14:33:04 - [ XNIO-1 task-3:15036 ] - [ INFO ] - [ com.linjc.controller.UserController.login(UserController.java:51) ] 
+{passWord:zzz, sex:1, remark:zzz, id:2, userName:zzz, age:18}
+2019-07-13 14:33:04 - [ XNIO-1 I/O-3:15040 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /user/home
+2019-07-13 14:33:04 - [ XNIO-1 task-4:15041 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /user/home, authentication required: false
+2019-07-13 14:33:04 - [ XNIO-1 task-4:15042 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /user/home
+2019-07-13 14:33:04 - [ XNIO-1 task-4:15043 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /user/home
+2019-07-13 14:33:13 - [ XNIO-1 I/O-3:23833 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /secret
+2019-07-13 14:33:13 - [ XNIO-1 I/O-3:23853 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /secret/
+2019-07-13 14:33:13 - [ XNIO-1 task-5:23854 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /secret/, authentication required: false
+2019-07-13 14:33:13 - [ XNIO-1 task-5:23854 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /secret/
+2019-07-13 14:33:13 - [ XNIO-1 task-5:23854 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /secret/
+2019-07-13 14:33:20 - [ XNIO-1 I/O-3:31132 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /secret/login
+2019-07-13 14:33:20 - [ XNIO-1 task-6:31133 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /secret/login, authentication required: false
+2019-07-13 14:33:20 - [ XNIO-1 task-6:31134 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /secret/login
+2019-07-13 14:33:20 - [ XNIO-1 task-6:31134 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /secret/login
+2019-07-13 14:33:20 - [ XNIO-1 task-6:31134 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Sat Jul 13 14:33:20 CST 2019使用了系统！！！！！
+2019-07-13 14:33:20 - [ XNIO-1 task-6:31147 ] - [ DEBUG ] - [ io.undertow.server.session.InMemorySessionManager.createSession(InMemorySessionManager.java:185) ] 
+Created session with id 9UwXGqiVwmQwf3Yu2zt72KbgnGHwz7O4A7A5jRrU for exchange HttpServerExchange{ POST /secret/login}
+2019-07-13 14:33:31 - [ XNIO-1 I/O-3:42182 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /secret/editPage
+2019-07-13 14:33:31 - [ XNIO-1 task-7:42184 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /secret/editPage, authentication required: false
+2019-07-13 14:33:31 - [ XNIO-1 task-7:42185 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /secret/editPage
+2019-07-13 14:33:31 - [ XNIO-1 task-7:42185 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /secret/editPage
+2019-07-13 14:33:35 - [ XNIO-1 I/O-3:45501 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /secret/deleteInfo
+2019-07-13 14:33:35 - [ XNIO-1 task-8:45503 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /secret/deleteInfo, authentication required: false
+2019-07-13 14:33:35 - [ XNIO-1 task-8:45503 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /secret/deleteInfo
+2019-07-13 14:33:35 - [ XNIO-1 task-8:45503 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /secret/deleteInfo
+2019-07-13 14:33:35 - [ XNIO-1 I/O-3:45565 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /secret/login
+2019-07-13 14:33:35 - [ XNIO-1 task-9:45566 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /secret/login, authentication required: false
+2019-07-13 14:33:35 - [ XNIO-1 task-9:45566 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /secret/login
+2019-07-13 14:33:35 - [ XNIO-1 task-9:45566 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /secret/login
+2019-07-13 14:33:35 - [ XNIO-1 task-9:45567 ] - [ INFO ] - [ com.linjc.controller.SecretController.login(SecretController.java:57) ] 
+Sat Jul 13 14:33:35 CST 2019使用了系统！！！！！
+2019-07-13 14:33:37 - [ XNIO-1 I/O-3:47965 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /secret/exit
+2019-07-13 14:33:37 - [ XNIO-1 task-10:47966 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /secret/exit, authentication required: false
+2019-07-13 14:33:37 - [ XNIO-1 task-10:47966 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /secret/exit
+2019-07-13 14:33:37 - [ XNIO-1 task-10:47966 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /secret/exit
+2019-07-13 14:33:44 - [ XNIO-1 I/O-3:54378 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /
+2019-07-13 14:33:44 - [ XNIO-1 task-11:54378 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /, authentication required: false
+2019-07-13 14:33:44 - [ XNIO-1 task-11:54378 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /
+2019-07-13 14:33:44 - [ XNIO-1 task-11:54379 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /
+2019-07-13 14:33:47 - [ XNIO-1 I/O-3:57404 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /user/login
+2019-07-13 14:33:47 - [ XNIO-1 task-12:57405 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /user/login, authentication required: false
+2019-07-13 14:33:47 - [ XNIO-1 task-12:57405 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /user/login
+2019-07-13 14:33:47 - [ XNIO-1 task-12:57405 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /user/login
+2019-07-13 14:33:47 - [ XNIO-1 task-12:57407 ] - [ INFO ] - [ com.linjc.controller.UserController.login(UserController.java:51) ] 
+{passWord:zzz, sex:1, remark:zzz, id:2, userName:zzz, age:18}
+2019-07-13 14:33:47 - [ XNIO-1 I/O-3:57409 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /user/home
+2019-07-13 14:33:47 - [ XNIO-1 task-13:57410 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /user/home, authentication required: false
+2019-07-13 14:33:47 - [ XNIO-1 task-13:57411 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /user/home
+2019-07-13 14:33:47 - [ XNIO-1 task-13:57411 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /user/home
+2019-07-13 14:33:48 - [ XNIO-1 I/O-3:58360 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /yyt
+2019-07-13 14:33:48 - [ XNIO-1 task-14:58362 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /yyt, authentication required: false
+2019-07-13 14:33:48 - [ XNIO-1 task-14:58362 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /yyt
+2019-07-13 14:33:48 - [ XNIO-1 task-14:58362 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /yyt
+2019-07-13 14:34:48 - [ XNIO-1 I/O-3:118430 ] - [ DEBUG ] - [ io.undertow.server.protocol.ParseTimeoutUpdater.run(ParseTimeoutUpdater.java:151) ] 
+Timing out idle connection from /0:0:0:0:0:0:0:1:56746
+2019-07-13 14:35:00 - [ XNIO-1 I/O-2:130815 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /
+2019-07-13 14:35:00 - [ XNIO-1 task-15:130816 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /, authentication required: false
+2019-07-13 14:35:00 - [ XNIO-1 task-15:130816 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /
+2019-07-13 14:35:00 - [ XNIO-1 task-15:130817 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /
+2019-07-13 14:35:03 - [ XNIO-1 I/O-2:133629 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /user/login
+2019-07-13 14:35:03 - [ XNIO-1 task-16:133630 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /user/login, authentication required: false
+2019-07-13 14:35:03 - [ XNIO-1 task-16:133630 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /user/login
+2019-07-13 14:35:03 - [ XNIO-1 task-16:133631 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /user/login
+2019-07-13 14:35:03 - [ XNIO-1 task-16:133633 ] - [ INFO ] - [ com.linjc.controller.UserController.login(UserController.java:51) ] 
+{passWord:zzz, sex:1, remark:zzz, id:2, userName:zzz, age:18}
+2019-07-13 14:35:03 - [ XNIO-1 I/O-2:133638 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /user/home
+2019-07-13 14:35:03 - [ XNIO-1 task-17:133639 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /user/home, authentication required: false
+2019-07-13 14:35:03 - [ XNIO-1 task-17:133639 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /user/home
+2019-07-13 14:35:03 - [ XNIO-1 task-17:133639 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /user/home
+2019-07-13 14:36:03 - [ XNIO-1 I/O-2:193692 ] - [ DEBUG ] - [ io.undertow.server.protocol.ParseTimeoutUpdater.run(ParseTimeoutUpdater.java:151) ] 
+Timing out idle connection from /0:0:0:0:0:0:0:1:56779
+2019-07-13 14:41:23 - [ XNIO-1 I/O-4:513852 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /user/home
+2019-07-13 14:41:23 - [ XNIO-1 task-18:513853 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /user/home, authentication required: false
+2019-07-13 14:41:23 - [ XNIO-1 task-18:513853 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /user/home
+2019-07-13 14:41:23 - [ XNIO-1 task-18:513854 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /user/home
+2019-07-13 14:41:32 - [ XNIO-1 I/O-4:522613 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /user/home
+2019-07-13 14:41:32 - [ XNIO-1 task-19:522614 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /user/home, authentication required: false
+2019-07-13 14:41:32 - [ XNIO-1 task-19:522614 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /user/home
+2019-07-13 14:41:32 - [ XNIO-1 task-19:522615 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /user/home
+2019-07-13 14:41:44 - [ XNIO-1 I/O-4:534892 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /user/home
+2019-07-13 14:41:44 - [ XNIO-1 task-20:534893 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /user/home, authentication required: false
+2019-07-13 14:41:44 - [ XNIO-1 task-20:534893 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@42e89dc2 for /user/home
+2019-07-13 14:41:44 - [ XNIO-1 task-20:534893 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /user/home
+2019-07-13 14:41:51 - [ main:0 ] - [ DEBUG ] - [ io.undertow.server.handlers.resource.PathResourceManager.<clinit>(PathResourceManager.java:31) ] 
+Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2019-07-13 14:41:51 - [ main:65 ] - [ DEBUG ] - [ org.jboss.logging.DelegatingBasicLogger.debugf(DelegatingBasicLogger.java:384) ] 
+Setting default session timeout to 1800
+2019-07-13 14:41:51 - [ main:74 ] - [ DEBUG ] - [ io.undertow.server.session.InMemorySessionManager.registerSessionListener(InMemorySessionManager.java:239) ] 
+Registered session listener io.undertow.servlet.core.SessionListenerBridge@429bd883
+2019-07-13 14:41:52 - [ main:561 ] - [ DEBUG ] - [ io.undertow.Undertow.start(Undertow.java:117) ] 
+starting undertow server io.undertow.Undertow@5117dd67
+2019-07-13 14:41:52 - [ main:569 ] - [ INFO ] - [ org.xnio.Xnio.<clinit>(Xnio.java:104) ] 
+XNIO version 3.3.8.Final
+2019-07-13 14:41:52 - [ main:579 ] - [ INFO ] - [ org.xnio.nio.NioXnio.<clinit>(NioXnio.java:55) ] 
+XNIO NIO Implementation Version 3.3.8.Final
+2019-07-13 14:41:52 - [ XNIO-1 I/O-2:712 ] - [ DEBUG ] - [ org.xnio.nio.WorkerThread.run(WorkerThread.java:433) ] 
+Started channel thread 'XNIO-1 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@2522c210
+2019-07-13 14:41:52 - [ XNIO-1 I/O-1:712 ] - [ DEBUG ] - [ org.xnio.nio.WorkerThread.run(WorkerThread.java:433) ] 
+Started channel thread 'XNIO-1 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@64b71a88
+2019-07-13 14:41:52 - [ XNIO-1 I/O-3:713 ] - [ DEBUG ] - [ org.xnio.nio.WorkerThread.run(WorkerThread.java:433) ] 
+Started channel thread 'XNIO-1 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@67aca5b2
+2019-07-13 14:41:52 - [ XNIO-1 I/O-4:713 ] - [ DEBUG ] - [ org.xnio.nio.WorkerThread.run(WorkerThread.java:433) ] 
+Started channel thread 'XNIO-1 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@3c855c80
+2019-07-13 14:41:52 - [ XNIO-1 Accept:713 ] - [ DEBUG ] - [ org.xnio.nio.WorkerThread.run(WorkerThread.java:433) ] 
+Started channel thread 'XNIO-1 Accept', selector sun.nio.ch.WindowsSelectorImpl@3e51205b
+2019-07-13 14:41:52 - [ main:713 ] - [ DEBUG ] - [ io.undertow.Undertow.start(Undertow.java:157) ] 
+Configuring listener with protocol HTTP for interface 0.0.0.0 and port 80
+2019-07-13 14:41:54 - [ XNIO-1 I/O-1:3432 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /user/home
+2019-07-13 14:41:54 - [ XNIO-1 task-1:3451 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /user/home, authentication required: false
+2019-07-13 14:41:54 - [ XNIO-1 task-1:3455 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@593d2064 for /user/home
+2019-07-13 14:41:54 - [ XNIO-1 task-1:3455 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /user/home
+2019-07-13 14:42:08 - [ XNIO-1 I/O-1:16949 ] - [ DEBUG ] - [ io.undertow.util.PathMatcher.match(PathMatcher.java:97) ] 
+Matched default handler path /user/home
+2019-07-13 14:42:08 - [ XNIO-1 task-2:16950 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:86) ] 
+Attempting to authenticate /user/home, authentication required: false
+2019-07-13 14:42:08 - [ XNIO-1 task-2:16950 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl$AuthAttempter.transition(SecurityContextImpl.java:247) ] 
+Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@593d2064 for /user/home
+2019-07-13 14:42:08 - [ XNIO-1 task-2:16951 ] - [ DEBUG ] - [ io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:110) ] 
+Authentication result was ATTEMPTED for /user/home
+2019-07-13 14:43:08 - [ XNIO-1 I/O-1:77006 ] - [ DEBUG ] - [ io.undertow.server.protocol.ParseTimeoutUpdater.run(ParseTimeoutUpdater.java:151) ] 
+Timing out idle connection from /0:0:0:0:0:0:0:1:56856
+2019-07-13 14:44:27 - [ Thread-2:156082 ] - [ DEBUG ] - [ io.undertow.Undertow.stop(Undertow.java:252) ] 
+stopping undertow server io.undertow.Undertow@5117dd67
+2019-07-13 14:45:14 - [ qtp1752203484-25:0 ] - [ INFO ] - [ com.linjc.controller.UserController.login(UserController.java:44) ] 
+{passWord:zzz, sex:1, remark:zzz, id:2, userName:zzz, age:18}
